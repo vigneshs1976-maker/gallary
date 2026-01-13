@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.b{
+    height: 100px;
+}
+.navigation{
+    background-color: black;
+    height: 80px;
+    align-content: center;
+    position: sticky;
+}
+a{
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+}
+input{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    left: 30px;
+}
+#s{
+    width: 40px;
+    height: 30px;
+    padding-left: 30px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#z{
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    padding-left: 30px;
+}
+#x{
+    position: relative;
+    bottom: 10px;
+}
+#f{
+    position: relative;
+    left: 1100px;
+    bottom: 8px;
+}
+#dd{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+#y{
+    position:relative;
+    left: 80px;
+
+}
+#e{
+    position: relative;
+    left: 1120px;
+    bottom: 8px;
+}
+#o{
+    position: relative;
+    left: 50px;
+}
+.p{
+    background-color: rgb(62, 68, 132);
+    height: 60px;
+}
+.g{
+    padding-left: 40px;
+    position: relative;
+    align-content: center;
+    bottom: 20px;
+}
+h4{
+    padding-left: 20px;
+}
+.a1{
+    position: relative;
+}
+.flex{
+}
+.grid{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    display: grid;
+    column-gap: 20px;
+    border: 2px solid black;
+}
+.a{
+    background-color: greenyellow;
+    height: 150px;
+    width: 150px;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+.a2{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.a3{
+    display: grid;
+    grid-row:1/2;
+    grid-column:2/3;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit:cover;
+}

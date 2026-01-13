@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.a{
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+}
+.a1{
+    position: relative;
+    left: 600px;
+   
+}
+.a2{
+    position: relative;
+    left: 390px;
+}
+.a3{
+    position: relative;
+    left: 170px;
+}
+.a4{
+    position: relative;
+    right: 50px;
+}
+.nav{
+    height: 200px;
+    background-color:rgb(100, 182, 214);
+    display: flex;
+    margin-bottom: 30px;
+}
+.nav img{
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.content h2{
+    color: rgb(41, 75, 64);
+}
+.content input{
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+    color: rgb(14, 61, 46);
+    padding-left: 30px;
+}
+.content select{
+    height: 40px;
+    width: 380px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.content textarea{
+    width: 380px;
+}
+.address p{
+    line-height: 30px;
+    font-size: 18px;
+    color: grey;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+}
+.photos img{
+    height: 200px;
+    width: 350px;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(36, 67, 57);
+}
+.profession{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(166, 77, 92);
+}
+.o1{
+    position: relative;
+    left: 50px;
+
+}
+.o3{
+    position: relative;
+    right: 100px;
+
+}
+.o4{
+    position: relative;
+    right: 180px;
+
+}
+.l1{
+    position: relative;
+    left: 50px;
+}
+.l3{
+    position: relative;
+    right: 60px;
+}
+.l4{
+    position: relative;
+    right: 120px;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: rgb(97, 90, 90);
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+.paragraph button{
+    background-color: rgb(104, 96, 96);
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+.content1{
+    margin-top: 50px;
+    background-color: rgb(225, 217, 217);
+    height:400px;
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+}
+.h{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+}
+.h1{
+    position: relative;
+    left: 340px;
+}
+.h2{
+    position: relative;
+    left: 170px;
+}
+.h3{
+    position: relative;
+
+}
+.h4{
+    position: relative;
+    right: 170px;
+}
+.h11{
+    position: relative;
+    left: 50px;
+    /* top: 0px; */
+    bottom: 30px;
+    color: rgb(45, 92, 76);
+}
+.h12{
+    position: relative;
+    left: 290px;
+    /* top: 10px; */
+    bottom: 30px;
+    color: rgb(45, 92, 76);
+}
+.content li{
+    position: relative;
+    /* left: 400px; */
+}
+.sub2{
+    display: flex;
+    justify-content: space-around;
+}
+.sub2 .p1{
+    position: relative;
+    right: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: grey;
+}
+.sub2 .ul1{
+    position: relative;
+    right: 140px;
+    list-style: none;
+    line-height: 30px;
+    color: grey;
+}
+.sub2 .ul2{
+    position: relative;
+    top: 30px;
+    right: 100px;
+    list-style: none;
+    color: grey;
+}
+.a1:hover{
+    color: blue;
+    text-decoration: underline 5px blue;
+    line-height: 30px;
+
+}
+.a2:hover{
+    color: green;
+    text-decoration: underline 5px green;
+
+}
+.a3:hover{
+    color: orange;
+    text-decoration: underline 5px orange;
+
+}
+.a4:hover{
+    color: darkviolet;
+    text-decoration: underline 5px darkviolet;
+
+}
